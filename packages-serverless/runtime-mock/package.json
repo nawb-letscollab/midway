@@ -1,7 +1,7 @@
 {
   "name": "@midwayjs/runtime-mock",
   "version": "3.0.4",
-  "main": "dist/index",
+  "main": "src/index.ts",
   "typings": "dist/index.d.ts",
   "dependencies": {
     "@midwayjs/runtime-engine": "^3.0.4"

@@ -2,8 +2,13 @@
   "name": "@midwayjs/i18n",
   "description": "midway i18n component",
   "version": "3.1.0",
-  "main": "dist/index",
-  "typings": "index.d.ts",
+  "main": "src/index.ts",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public",
+    "typings": "index.d.ts",
+    "main": "dist/index.js"
+  },
   "files": [
     "dist/**/*.js",
     "dist/**/*.d.ts",
@@ -13,11 +18,11 @@
     "picomatch": "2.3.1"
   },
   "devDependencies": {
-    "@midwayjs/core": "^3.1.0",
-    "@midwayjs/decorator": "^3.0.10",
-    "@midwayjs/express": "^3.1.0",
-    "@midwayjs/koa": "^3.1.0",
-    "@midwayjs/mock": "^3.1.0"
+    "@midwayjs/core": "workspace:^",
+    "@midwayjs/decorator": "workspace:^",
+    "@midwayjs/express": "workspace:^",
+    "@midwayjs/koa": "workspace:^",
+    "@midwayjs/mock": "workspace:^"
   },
   "keywords": [
     "midway",

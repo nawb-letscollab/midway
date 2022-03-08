@@ -211,7 +211,7 @@ declare module '@midwayjs/core/dist/interface' {
 ```json
 {
   "name": "****",
-  "main": "dist/index.js",
+  "main": "src/index.ts",,
   "typings": "index.d.ts",			// 这里的类型导出文件使用项目根目录的
   // ...
   "files": [

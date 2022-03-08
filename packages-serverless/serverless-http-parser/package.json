@@ -1,7 +1,7 @@
 {
   "name": "@midwayjs/serverless-http-parser",
   "version": "3.0.4",
-  "main": "dist/index",
+  "main": "src/index.ts",
   "typings": "dist/index.d.ts",
   "dependencies": {
     "@midwayjs/cookies": "1.0.1",

@@ -2,16 +2,21 @@
   "name": "@midwayjs/tablestore",
   "description": "midway tablestore component",
   "version": "3.1.0",
-  "main": "dist/index",
-  "typings": "dist/index.d.ts",
+  "main": "src/index.ts",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public",
+    "typings": "dist/index.d.ts",
+    "main": "dist/index.js"
+  },
   "files": [
     "dist/**/*.js",
     "dist/**/*.d.ts"
   ],
   "devDependencies": {
-    "@midwayjs/core": "^3.1.0",
-    "@midwayjs/decorator": "^3.0.10",
-    "@midwayjs/mock": "^3.1.0"
+    "@midwayjs/core": "workspace:^",
+    "@midwayjs/decorator": "workspace:^",
+    "@midwayjs/mock": "workspace:^"
   },
   "dependencies": {
     "int64-buffer": "1.0.1",

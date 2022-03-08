@@ -21,3 +21,12 @@ midway_benchmark_app
 *.sqlite
 .env
 docs-api
+
+*.tgz
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

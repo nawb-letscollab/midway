@@ -1,18 +1,23 @@
 {
   "name": "@midwayjs/swagger",
   "version": "3.1.0",
-  "main": "dist/index",
-  "typings": "index.d.ts",
+  "main": "src/index.ts",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public",
+    "typings": "index.d.ts",
+    "main": "dist/index.js"
+  },
   "files": [
     "dist/**/*.js",
     "dist/**/*.d.ts",
     "index.d.ts"
   ],
   "devDependencies": {
-    "@midwayjs/core": "^3.1.0",
-    "@midwayjs/decorator": "^3.0.10",
-    "@midwayjs/koa": "^3.1.0",
-    "@midwayjs/mock": "^3.1.0",
+    "@midwayjs/core": "workspace:^",
+    "@midwayjs/decorator": "workspace:^",
+    "@midwayjs/koa": "workspace:^",
+    "@midwayjs/mock": "workspace:^",
     "swagger-ui-dist": "4.6.1"
   },
   "author": "Kurten Chan <chinkurten@gmail.com>",

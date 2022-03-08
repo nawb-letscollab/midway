@@ -1,7 +1,7 @@
 {
   "name": "@midwayjs/runtime-engine",
   "version": "3.0.4",
-  "main": "dist/index",
+  "main": "src/index.ts",
   "typings": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",

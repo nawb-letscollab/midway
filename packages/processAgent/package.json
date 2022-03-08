@@ -2,8 +2,13 @@
   "name": "@midwayjs/process-agent",
   "version": "3.1.0",
   "description": "",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "src/index.ts",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public",
+    "typings": "dist/index.d.ts",
+    "main": "dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "test": "node --require=ts-node/register ../../node_modules/.bin/jest --runInBand",
@@ -25,10 +30,10 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@midwayjs/core": "^3.1.0",
-    "@midwayjs/decorator": "^3.0.10",
-    "@midwayjs/koa": "^3.1.0",
-    "@midwayjs/mock": "^3.1.0"
+    "@midwayjs/core": "workspace:^",
+    "@midwayjs/decorator": "workspace:^",
+    "@midwayjs/koa": "workspace:^",
+    "@midwayjs/mock": "workspace:^"
   },
   "dependencies": {
     "request": "2.88.2"

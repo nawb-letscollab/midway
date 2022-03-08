@@ -1,7 +1,7 @@
 {
   "name": "@midwayjs/serverless-scf-trigger",
   "version": "3.1.0",
-  "main": "dist/index",
+  "main": "src/index.ts",
   "typings": "dist/index.d.ts",
   "dependencies": {
     "@midwayjs/faas-typings": "^3.0.0",
